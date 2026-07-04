@@ -12,9 +12,7 @@ if(isset($_POST['login'])){
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
     if($user){
 
-       /* $user = $stmt->fetch(PDO::FETCH_ASSOC);*/
-
-        if(trim($password) === trim($user['password'])){
+       if(trim($password) === trim($user['password'])){
 
             $_SESSION['user_id'] = $user['id'];
 

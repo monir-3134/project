@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Tahoma,sans-serif;
+}
+
+body{
+    direction:rtl;
+    background:#e3eae4;
+    width:100%;
+    height:100vh;
+    display:flex;   
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    position:relative;
+}
+
+/* =========================
+   Header
+========================= */
+.header{
+width:100%;
+}
+
+.logo-box{
+    position:fixed;
+    display:flex;
+    top:10px;
+    left:20px;
+    display:fixed;
+    align-items:center;
+    gap:10px;
+}
+
+.logo{
+    width:150px;
+    height:auto;
+    margin-bottom:10px;
+
+}
+/* =========================
+   Login Box
+========================= */
+
+.login-box{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    align-items:center;
+}
+
+.login-box form{
+    width:500px;
+    background:#fff;
+    padding:30px;
+    border-radius:18px;
+}
+/* ===========================
+        green Box
+=========================== */
+.green-box{
+    width:100%;
+    height:35px;
+    background:#064b22;
+    padding:12px;
+    margin-top:80px;
+
+
+
+
+}
+
+/* ===========================
+        Login Button
+=========================== */
+
+.login-btn{
+    width: 100%;
+    height: 58px;
+    border: none;
+    border-radius: 8px;
+    background: #064b22;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.login-btn:hover{
+    background: #064b22;
+}
+
+/* ===========================
+        Input Box
+=========================== */
+
+.input-box{
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 58px;
+    border: 1px solid #d7d7d7;
+    border-radius: 8px;
+    background: #fff;
+    outline: none;
+    padding: 0 18px 0 50px;
+    font-size: 17px;
+    color: #333;
+    transition: .3s;
+}
+
+/* ===========================
+        Login Button
+=========================== */
+
+.login-btn{
+    width: 100%;
+    height: 58px;
+    border: none;
+    border-radius: 8px;
+    background: #064b22;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.login-btn:hover{
+    background: #064b22;
+}
+
+.logout{
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    width: 150px;
+    height: 50px;
+    background: #064b22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.logout:hover{
+    background: #064b22;
+}
+.title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #064b22;
+    margin-top: 80px;
+    margin-bottom: 10px;
+
+}
+.user-box{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.user-box img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:10px;
+}
+
+.box{
+    width:500px;
+    background:#fff;
+    padding:30px;
+    border-radius:18px;
+    text-align:center;
+}
+/* پروفایل کاربر */
+/* ===========================
+   User Profile
+=========================== */
+
+.user-box{
+    position:fixed;
+    top:20px;
+    right:30px;
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.user-info{
+    text-align:right;
+}
+
+.user-info h2{
+    margin:0;
+    color:#064b22;
+    font-size:28px;
+}
+
+.user-info p{
+    margin:4px 0;
+    color:#666;
+    font-size:18px;
+}
+
+.profile-img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #064b22;
+}
+
+.profile-circle{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    background:#064b22;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    font-size:32px;
+    font-weight:bold;
+    border:4px solid #064b22;
+}
